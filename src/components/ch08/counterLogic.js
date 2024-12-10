@@ -8,6 +8,12 @@ function CounterLogic(initialCount = 0) {
       getCount: () => count,
     };
   }
+
+
+export const addTwoNumbers = (a,b) => {
+  const result = a+b;
+  return result;
+}
   
   export default CounterLogic;
   
